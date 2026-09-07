@@ -20,4 +20,5 @@ jobs:
           cache: maven
 
       - name: Ejecutar pruebas
+        working-directory: ./SGPB_automatizacion_JUnit_CI
         run: mvn --batch-mode test
